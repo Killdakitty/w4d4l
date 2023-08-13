@@ -1,6 +1,44 @@
 .App {
   text-align: center;
 }
+  
+ h1{
+  background-color: black;
+  color: white
+}
+
+.starships {
+  width: 250px;
+  height: 100px;
+  background-color: #3a7795;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;;
+}
+
+.cards { 
+  display: grid;
+  grid-template-columns: repeat(4, 300px); /* 4 columns with equal width */
+  grid-template-rows: repeat(2, 150px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.starships h3,
+.starships h4 {
+  line-height: 0;
+}
+
+h3 {
+  color: black;
+}
+
+.App {
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;
